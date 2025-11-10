@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 export default function App(){
   const [loading, setLoading] = useState(true)
-  const [theme, setTheme] = useState('light') // light: green/black, dark: blue tones
+  const [theme, setTheme] = useState('light') // color of theme
 
   useEffect(() => {
     const root = document.documentElement
